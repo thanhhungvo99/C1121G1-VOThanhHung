@@ -1,0 +1,17 @@
+(function(){
+  window['optimizely'] = window['optimizely'] || [];
+  window['optimizely'].push(['activateGeoDelayedExperiments', {
+    'location':{
+      'city': "HOCHIMINHCITY",
+      'continent': "AS",
+      'country': "VN",
+      'region': "SG",
+      'dma': ""
+    },
+    'ip':"118.69.121.62"
+  }]);
+})
+//
+()
+
+;
