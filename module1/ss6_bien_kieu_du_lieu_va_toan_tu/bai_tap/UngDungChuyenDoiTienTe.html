@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Ammout
+    <input id="money" type="text" name="Ammout"><br>
+    From Currency
+    <select id="from">
+        <option value="usd">USD</option>
+        <option value="vnd">VIETNAM</option>
+    </select><br>
+    To Currency
+    <select id="to">
+        <option value="usd">USD</option>
+        <option value="vnd">VIETNAM</option>
+    </select><br>
+    <input style="background: #00a1e6" type="button" value="convert" onclick="doiTien()">
+</form>
+
+<script>
+
+    function doiTien() {
+        let money=document.getElementById("money").value;
+        let from=document.getElementById("from").value;
+        let to=document.getElementById("to").value;
+        alert (money);
+        alert (from);
+        alert (to);
+        
+
+
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
