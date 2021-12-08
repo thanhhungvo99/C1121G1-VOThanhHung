@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <img id="imgball" src="https://salt.tikicdn.com/cache/444x444/ts/product/8f/a4/74/50da815c2205ffc5f6690f73335c8911.jpg" style="width:50px"/>
+
+    <p>Click button below to move the image to right</p>
+    <button style="font-size: 30px" onclick="moveRight()">click here </button>
+
+
+<script>
+    let imgObjn = document.getElementById('imgball');
+    function init() {
+        imgObjn = document.getElementById('imgball');
+        imgObjn.style.position = 'ralative';
+        imgObjn.style.left = '50px';
+    }
+    window.onload = init;
+    function moveRight() {
+        imgObjn.style.left = parseInt((imgObjn.style.left) + 20 + 'px')
+    }
+    let
+</script>
+
+</body>
+</html>
